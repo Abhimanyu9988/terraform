@@ -3,6 +3,8 @@ terraform {
     aws = {
       source  = "hashicorp/aws"
       version = "~> 3.0"
+      ##### Adding parameters
+      shared_config_files  = ["/Users/abhibaj/.aws/config"]
     }
   }
 
